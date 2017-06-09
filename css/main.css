@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+.box {
+  display: inline-flex;
+  height: 50px;
+  width: 150px;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+@media (max-width: 600px) {
+  div.green,
+  div.orange {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+    div.green,
+    div.orange,
+    div.blue,
+    div.red {
+      width: 100%;
+    }
+}
